@@ -4,7 +4,9 @@ import android.content.Intent
 import android.util.Log
 import bruno.com.br.rxexamples.App
 import bruno.com.br.rxexamples.model.RxTopic
+import bruno.com.br.rxexamples.ui.rx_activity.AccumulateCallsActivity
 import bruno.com.br.rxexamples.ui.rx_activity.BackgroundWorkActivity
+import bruno.com.br.rxexamples.ui.rx_activity.InstantSearchingActivity
 import timber.log.Timber
 import java.util.*
 
@@ -15,6 +17,8 @@ class RxTopicsPresenter : RxTopicsContract.Presenter {
 
         val intent = when(rxTopic?.id){
             1 -> Intent(App.getContext(), BackgroundWorkActivity::class.java)
+            2 -> Intent(App.getContext(), AccumulateCallsActivity::class.java)
+            3 -> Intent(App.getContext(), InstantSearchingActivity::class.java)
             else -> Intent(App.getContext(), BackgroundWorkActivity::class.java)
         }
 

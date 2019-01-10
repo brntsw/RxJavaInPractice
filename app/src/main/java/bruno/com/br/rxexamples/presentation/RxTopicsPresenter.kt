@@ -7,6 +7,7 @@ import bruno.com.br.rxexamples.model.RxTopic
 import bruno.com.br.rxexamples.ui.rx_activity.AccumulateCallsActivity
 import bruno.com.br.rxexamples.ui.rx_activity.BackgroundWorkActivity
 import bruno.com.br.rxexamples.ui.rx_activity.InstantSearchingActivity
+import bruno.com.br.rxexamples.ui.rx_activity.RetrofitActivity
 import timber.log.Timber
 import java.util.*
 
@@ -19,6 +20,7 @@ class RxTopicsPresenter : RxTopicsContract.Presenter {
             1 -> Intent(App.getContext(), BackgroundWorkActivity::class.java)
             2 -> Intent(App.getContext(), AccumulateCallsActivity::class.java)
             3 -> Intent(App.getContext(), InstantSearchingActivity::class.java)
+            4 -> Intent(App.getContext(), RetrofitActivity::class.java)
             else -> Intent(App.getContext(), BackgroundWorkActivity::class.java)
         }
 

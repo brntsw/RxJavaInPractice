@@ -39,6 +39,11 @@
                 android:label="@string/title_activity_instant_searching"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
+        <activity
+                android:name=".ui.rx_activity.RetrofitActivity"
+                android:label="@string/title_activity_retrofit"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
     </application>
 
 </manifest>

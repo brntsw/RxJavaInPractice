@@ -9,4 +9,12 @@
     <string name="title_activity_instant_searching">InstantSearchingActivity</string>
     <string name="msg_demo_debounce">As you type in the input box, it will not shoot out log messages at every single input character change, but rather only pick the last one.</string>
     <string name="enter_some_search_text">Enter some search text</string>
+    <string name="title_activity_retrofit">RetrofitActivity</string>
+    <string name="msg_demo_retrofit">Retrofit from Square is a super easy networking helper library. It works really well with RxJava and these are examples taken from Jake Wharton\'s talk at Netflix (see README). Really the only interesting bits here are in the code and logs.</string>
+    <string name="log_contributors_of">Log contributors of:</string>
+    <string name="square">square</string>
+    <string name="owner">owner</string>
+    <string name="retrofit">retrofit</string>
+    <string name="reponame">reponame</string>
+    <string name="log_with_full_user_info">Log with full User Info:</string>
 </resources>
